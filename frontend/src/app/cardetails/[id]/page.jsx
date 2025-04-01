@@ -49,13 +49,13 @@ const CarDetails = () => {
                              < IconPointFilled/>   {vehicle.alt}
                             </h1>
 
-                            <div className='flex mr-3'>
-                                <h2 className='flex border gap-1 shadow-sm rounded-lg p-4 m-2 mt-6 bg-gray-800 text-white'>
+                            <div className='flex '>
+                                <h2 className='flex border gap-1 shadow-sm rounded-lg p-4  mt-6 bg-gray-800 text-white'>
                                     <IconPhone />
                                     <span>9336968870</span>
 
                                 </h2>
-                                <h2 className='flex border gap-1 shadow-sm rounded-lg p-4 m-2 mt-6 bg-gray-800 text-white'>
+                                <h2 className='flex border gap-1 shadow-sm rounded-lg p-4 mt-6 bg-gray-800 text-white'>
                                     <IconBrandWhatsapp />
                                     <span>9336968870</span></h2>
                             </div>
