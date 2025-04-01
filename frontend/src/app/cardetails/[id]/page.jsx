@@ -26,7 +26,7 @@ const CarDetails = () => {
                     />
                     {/* End Col */}
                     <div className="mt-5 sm:mt-10 lg:mt-0">
-                        <div className="m-4 p-6 bg-white rounded-xl">
+                        <div className="m-2 p-6 bg-white rounded-xl">
                             <i className="block underline text-4xl sm:text-5xl md:text-6xl lg:text-7xl m-6 font-semibold uppercase text-black dark:text-blue-500">
                                 {vehicle.name}
                             </i>
@@ -49,13 +49,13 @@ const CarDetails = () => {
                              < IconPointFilled/>   {vehicle.alt}
                             </h1>
 
-                            <div className='flex gap-1'>
-                                <h2 className='flex border gap-2 shadow-sm rounded-lg p-4 m-2 mt-6 bg-gray-800 text-white'>
+                            <div className='flex '>
+                                <h2 className='flex border gap-1 shadow-sm rounded-lg p-4 m-2 mt-6 bg-gray-800 text-white'>
                                     <IconPhone />
                                     <span>9336968870</span>
 
                                 </h2>
-                                <h2 className='flex border gap-2 shadow-sm rounded-lg p-4 m-2 mt-6 bg-gray-800 text-white'>
+                                <h2 className='flex border gap-1 shadow-sm rounded-lg p-4 m-2 mt-6 bg-gray-800 text-white'>
                                     <IconBrandWhatsapp />
                                     <span>9336968870</span></h2>
                             </div>
