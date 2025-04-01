@@ -15,7 +15,7 @@ const vehicles = [
  
   {
     id: '2',
-    name: 'innova crysta',
+    name: 'Innova Crysta',
     image: 'inovacrysta.jpg',
     description: 'Premium experience',
     price: 'For local use (12 hr – 120km) Rate - ₹3400',
@@ -28,7 +28,7 @@ const vehicles = [
   
   {
     id: '3',
-    name: 'inova',
+    name: 'Inova',
     image: 'inova.jpg',
     description: 'Want some comfort...',
     price: 'For local use (12 hr – 120km) Rate - ₹3000',
@@ -53,7 +53,7 @@ const vehicles = [
   
   {
     id: '5',
-    name: 'tempo traveller(17 seater)',
+    name: 'Tempo traveller(17 seater)',
     image: 'tampo.jpg',
     description: 'Best ride for long distance',
     price: 'For local use (12 hr – 120km) Rate - ₹8000',
@@ -77,7 +77,7 @@ const vehicles = [
   },
   {
     id: '7',
-    name: 'honda city ',
+    name: 'Honda city ',
     image: 'hondacity.jpg',
     description: 'Best ride for long distance',
     price: 'For local use (12 hr – 120km) Rate - ₹3200',

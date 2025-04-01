@@ -79,7 +79,7 @@ const Home = () => {
                   <i className="ri-customer-service-2-line text-primary text-4xl" />
                 </div>
                 <h3 className="text-xl font-semibold mb-4">24/7 Customer Support</h3>
-                <h3 className="text-xl font-semibold mb-4">1234567890</h3>
+                <h3 className="text-xl font-semibold mb-4">9336968870</h3>
                 <p className="text-gray-600">
                   Our dedicated team is always available to assist you with any queries or concerns.
                 </p>

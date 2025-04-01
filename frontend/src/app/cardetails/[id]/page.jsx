@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import React, { useState } from 'react';
 import vehicles from '../../vehiclesData';
-import { IconBrandWhatsapp, IconPhone, IconPhoneFilled } from '@tabler/icons-react';
+import { IconBrandWhatsapp, IconPhone, IconPhoneFilled, IconPointFilled } from '@tabler/icons-react';
 
 
 const CarDetails = () => {
@@ -27,37 +27,38 @@ const CarDetails = () => {
                     {/* End Col */}
                     <div className="mt-5 sm:mt-10 lg:mt-0">
                         <div className="m-4 p-6 bg-white rounded-xl">
-                            <h1 className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl m-6 font-semibold uppercase text-black dark:text-blue-500">
+                            <i className="block underline text-4xl sm:text-5xl md:text-6xl lg:text-7xl m-6 font-semibold uppercase text-black dark:text-blue-500">
                                 {vehicle.name}
+                            </i>
+                            <h1 className='flex text-xl m-2'>
+                           < IconPointFilled/>  {vehicle.price}
                             </h1>
-                            <h1 className='font-bold text-xl m-6'>
-                                {vehicle.price}
+                            <h1 className='flex text-xl m-2'>
+                             < IconPointFilled/>   {vehicle.after}
                             </h1>
-                            <h1 className='font-bold text-xl m-6'>
-                                {vehicle.after}
+                            <h1 className='flex text-xl m-2'>
+                              < IconPointFilled/>  {vehicle.extra}
                             </h1>
-                            <h1 className='font-bold text-xl m-6'>
-                                {vehicle.extra}
+                            <h1 className='flex text-xl m-2'>
+                             < IconPointFilled/>   {vehicle.outstation}
                             </h1>
-                            <h1 className='font-bold text-xl m-6'>
-                                {vehicle.outstanding}
+                            <h1 className='flex text-xl m-2'>
+                              < IconPointFilled/>  {vehicle.night}
                             </h1>
-                            <h1 className='font-bold text-xl m-6'>
-                                {vehicle.night}
-                            </h1>
-                            <h1 className='font-bold text-xl m-6'>
-                                {vehicle.alt}
+                            <h1 className='flex text-xl m-2'>
+                             < IconPointFilled/>   {vehicle.alt}
                             </h1>
 
-                            <div className='flex gap-3'>
-                                <h2 className='flex gap-3 border shadow-sm rounded-lg p-4 m-6 bg-gray-800 text-white'>
+                            <div className='flex gap-1'>
+                                <h2 className='flex border gap-2 shadow-sm rounded-lg p-4 m-2 mt-6 bg-gray-800 text-white'>
                                     <IconPhone />
                                     <span>9336968870</span>
 
                                 </h2>
-                                <h2 className='flex gap-3 border shadow-sm rounded-lg p-4 m-6 bg-gray-800 text-white'>
+                                <h2 className='flex border gap-2 shadow-sm rounded-lg p-4 m-2 mt-6 bg-gray-800 text-white'>
                                     <IconBrandWhatsapp />
-                                    <span>9336968870</span></h2></div>
+                                    <span>9336968870</span></h2>
+                            </div>
 
 
                         </div>
