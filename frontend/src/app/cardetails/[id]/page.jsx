@@ -16,7 +16,7 @@ const CarDetails = () => {
     return (
         <>
             {/* Features */}
-            <div className="max-w-screen-xl m-10 mt-20 px-4 py-10 sm:px-6 lg:px-8 mx-auto bg-#fff9c4-300">
+            <div className="max-w-screen-xl m-10 mt-20 px-4 py-10 sm:px-6 lg:px-8 mx-auto ">
                 {/* Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center shadow-lg">
                     <img
@@ -26,7 +26,7 @@ const CarDetails = () => {
                     />
                     {/* End Col */}
                     <div className="mt-5 sm:mt-10 lg:mt-0">
-                        <div className="m-4 p-6 bg-white dark:bg-gray-800 rounded-xl">
+                        <div className="m-4 p-6 bg-white rounded-xl">
                             <h1 className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl m-6 font-semibold uppercase text-black dark:text-blue-500">
                                 {vehicle.name}
                             </h1>
