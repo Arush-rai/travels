@@ -27,7 +27,7 @@ const CarDetails = () => {
                     {/* End Col */}
                     <div className="mt-5 sm:mt-10 lg:mt-0">
                         <div className="m-2 p-6 bg-white rounded-xl">
-                            <i className="block underline text-4xl sm:text-5xl md:text-6xl lg:text-7xl m-6 font-semibold uppercase text-black dark:text-blue-500">
+                            <i className="block underline text-3xl sm:text-4xl md:text-5xl lg:text-6xl m-4 font-semibold uppercase text-black">
                                 {vehicle.name}
                             </i>
                             <h1 className='flex text-xl m-2'>
