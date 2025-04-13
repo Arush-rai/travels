@@ -23,7 +23,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-8">
             {/* Logo (Optional) */}
             <img src="logo.jpg" alt="Logo" className="h-10" />
-            <i className="text-white text-2xl font-bold">IB Tours& travels</i>
+            <i className="text-white text-2xl font-bold">IB Tours & travels</i>
           </div>
 
           {/* Desktop Navigation Links */}

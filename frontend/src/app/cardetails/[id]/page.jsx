@@ -31,16 +31,13 @@ const CarDetails = () => {
                                 {vehicle.name}
                             </i>
                             <h1 className='flex text-xl m-2'>
-                           < IconPointFilled/>  {vehicle.price}
+                           < IconPointFilled/>  {vehicle.price} {vehicle.after}
                             </h1>
                             <h1 className='flex text-xl m-2'>
-                             < IconPointFilled/>   {vehicle.after}
+                            < IconPointFilled/> {vehicle.extra}
                             </h1>
                             <h1 className='flex text-xl m-2'>
-                              < IconPointFilled/>  {vehicle.extra}
-                            </h1>
-                            <h1 className='flex text-xl m-2'>
-                             < IconPointFilled/>   {vehicle.outstation}
+                             < IconPointFilled/>   {vehicle.outstation} {vehicle.extra2}
                             </h1>
                             <h1 className='flex text-xl m-2'>
                               < IconPointFilled/>  {vehicle.night}
@@ -52,12 +49,12 @@ const CarDetails = () => {
                             <div className='flex gap-2'>
                                 <h2 className='flex border gap-1 shadow-sm rounded-lg p-4  mt-6 bg-gray-800 text-white'>
                                     <IconPhone />
-                                    <span>9336968870</span>
+                                    <span>6393512994</span>
 
                                 </h2>
                                 <h2 className='flex border gap-1 shadow-sm rounded-lg p-4 mt-6 bg-gray-800 text-white'>
                                     <IconBrandWhatsapp />
-                                    <span>9336968870</span></h2>
+                                    <span>6393512994</span></h2>
                             </div>
 
 

@@ -9,7 +9,7 @@ const Footer = () => {
             <div>
               <h3 className="text-xl font-bold mb-4">About Us</h3>
               <p className="text-gray-400">
-                Premium car rental service providing luxury and comfort for your journey since 2010.
+                Premium car rental service providing luxury and comfort for your journey since 2018.
               </p>
             </div>
             <div>
@@ -17,22 +17,22 @@ const Footer = () => {
               <ul className="space-y-2 text-gray-400">
                 <li>
                   <a href="#" className="hover:text-white">
-                    New York City
+                    Lucknow
                   </a>
                 </li>
                 <li>
                   <a href="#" className="hover:text-white">
-                    Los Angeles
+                    Delhi
                   </a>
                 </li>
                 <li>
                   <a href="#" className="hover:text-white">
-                    Chicago
+                    Haidrabad 
                   </a>
                 </li>
                 <li>
                   <a href="#" className="hover:text-white">
-                    Miami
+                    Puna
                   </a>
                 </li>
               </ul>
