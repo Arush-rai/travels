@@ -32,7 +32,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="#" className="hover:text-white">
-                    Puna
+                    Pune
                   </a>
                 </li>
               </ul>

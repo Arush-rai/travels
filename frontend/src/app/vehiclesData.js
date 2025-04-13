@@ -2,7 +2,7 @@
 const vehicles = [
   {
     id: '1',
-    name: 'Swift Dzir',
+    name: 'Swift Dzire',
     image: 'dzir.jpg',
     description: 'Perfect for city driving',
     price: 'For local use (12 hr – 120km) Rate - ₹2400',
