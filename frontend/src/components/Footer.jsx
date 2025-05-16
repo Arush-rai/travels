@@ -3,77 +3,51 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-<footer className=" bg-gray-900 text-white py-12">
+      <footer className="bg-gray-900 text-white py-12">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div>
+          <div className="flex flex-col items-center md:flex-row md:justify-center md:space-x-16">
+            <div className="mb-8 md:mb-0 text-center">
               <h3 className="text-xl font-bold mb-4">About Us</h3>
-              <p className="text-gray-400">
-                Premium car rental service providing luxury and comfort for your journey since 2018.
+              <p className="text-gray-400 max-w-xs">
+                IB Tours & Travels is a premium car rental service in Lucknow, Uttar Pradesh, providing luxury and comfort for your journey since 2018. Rent cars on distance, km, or day basis for tours, and travel.
               </p>
             </div>
-            <div>
+            <div className="text-center">
               <h3 className="text-xl font-bold mb-4">Popular Locations</h3>
               <ul className="space-y-2 text-gray-400">
                 <li>
-                  <a href="#" className="hover:text-white">
+                  <a href="/car-rental-lucknow" className="hover:text-white">
                     Lucknow
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white">
+                  <a href="/car-rental-delhi" className="hover:text-white">
                     Delhi
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white">
-                    Haidrabad 
+                  <a href="/car-rental-hyderabad" className="hover:text-white">
+                    Hyderabad
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white">
+                  <a href="/car-rental-pune" className="hover:text-white">
                     Pune
                   </a>
                 </li>
               </ul>
             </div>
-            <div>
-              <h3 className="text-xl font-bold mb-4">Quick Links</h3>
-              <ul className="space-y-2 text-gray-400">
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Terms & Conditions
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Privacy Policy
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white">
-                    FAQ
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Contact Us
-                  </a>
-                </li>
-              </ul>
-            </div>
-
           </div>
           <div className="mt-12 pt-8 border-t border-gray-800">
-            <div className="flex flex-wrap justify-between items-center">
-              <div className="text-gray-400">
-                © 2025 Premium Car Rental. All rights reserved.
+            <div className="flex flex-col items-center justify-center space-y-4 md:flex-row md:justify-between md:space-y-0">
+              <div className="text-gray-400 text-center">
+                © 2025 IB Tours & Travels, Lucknow, Uttar Pradesh. All rights reserved.
               </div>
-              <div className="flex space-x-6 mt-4 md:mt-0">
-                <a href="#" className="text-gray-400 hover:text-white">
+              <div className="flex space-x-6">
+                <a href="https://facebook.com/yourpage" className="text-gray-400 hover:text-white" aria-label="Facebook">
                   <i className="ri-facebook-fill text-xl" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white">
+                <a href="https://twitter.com/yourpage" className="text-gray-400 hover:text-white" aria-label="Twitter">
                   <i className="ri-twitter-fill text-xl" />
                 </a>
               </div>
@@ -81,7 +55,6 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-
     </div>
   )
 }
