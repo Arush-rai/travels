@@ -34,13 +34,13 @@ const Home = () => {
         <meta property="og:title" content="Car Rental in Lucknow | IB Tours & Travels" />
         <meta property="og:description" content="Book car, taxi, or cab in Lucknow. Best rates for airport, outstation, and city rides. 24/7 support, no hidden charges." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://ibtourandtravels.com/" />
-        <meta property="og:image" content="https://ibtourandtravels.com/og-image.jpg" />
+        <meta property="og:url" content="https://ibtourtravels.com/" />
+        <meta property="og:image" content="https://ibtourtravels.com/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Car Rental in Lucknow | IB Tours & Travels" />
         <meta name="twitter:description" content="Book car, taxi, or cab in Lucknow. Best rates for airport, outstation, and city rides." />
-        <meta name="twitter:image" content="https://ibtourandtravels.com/og-image.jpg" />
-        <link rel="canonical" href="https://ibtourandtravels.com/" />
+        <meta name="twitter:image" content="https://ibtourtravels.com/og-image.jpg" />
+        <link rel="canonical" href="https://ibtourtravels.com/" />
       </Head>
       <main className="pt-16">
         {/* Hero Section */}
