@@ -35,13 +35,13 @@ const CarDetails = () => {
         <meta property="og:title" content={`${vehicle.name} for Rent in Lucknow | IB Tours & Travels`} />
         <meta property="og:description" content={`Rent ${vehicle.name} in Lucknow, Uttar Pradesh. ${vehicle.description} Book now with IB Tours & Travels for best rates on distance, km, or day basis.`} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content={`https://ibtourandtravels.com/cardetails/${vehicle.id}`} />
-        <meta property="og:image" content={`https://ibtourandtravels.com/${vehicle.image}`} />
+        <meta property="og:url" content={`https://ibtourtravels.com/cardetails/${vehicle.id}`} />
+        <meta property="og:image" content={`https://ibtourtravels.com/${vehicle.image}`} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={`${vehicle.name} for Rent in Lucknow | IB Tours & Travels`} />
         <meta name="twitter:description" content={`Rent ${vehicle.name} in Lucknow, Uttar Pradesh. ${vehicle.description}`} />
-        <meta name="twitter:image" content={`https://ibtourandtravels.com/${vehicle.image}`} />
-        <link rel="canonical" href={`https://ibtourandtravels.com/cardetails/${vehicle.id}`} />
+        <meta name="twitter:image" content={`https://ibtourtravels.com/${vehicle.image}`} />
+        <link rel="canonical" href={`https://ibtourtravels.com/cardetails/${vehicle.id}`} />
       </Head>
       {/* Features */}
       <div className="min-h-screen bg-gradient-to-b from-gray-100 via-white to-gray-100 py-10">
