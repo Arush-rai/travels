@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <div className="bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950 min-h-screen">
       <Head>
-        <title>Car Rental in Lucknow | IB Tours & Travels | Taxi & Cab Hire Uttar Pradesh</title>
+        <title> IB Tours Travels </title>
         <meta
           name="description"
           content="Best car rental in Lucknow! IB Tours & Travels offers taxi, cab, and luxury car hire on km or day basis. Book your ride for airport, outstation, business, or tours in Lucknow, Uttar Pradesh."
@@ -42,6 +42,7 @@ const Home = () => {
         <meta name="twitter:image" content="https://ibtourtravels.com/og-image.jpg" />
         <link rel="canonical" href="https://ibtourtravels.com/" />
       </Head>
+
       <main className="pt-16">
         {/* Hero Section */}
         <section
@@ -106,29 +107,19 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Revolving Slider Section */}
+        {/* Clients Slider Section */}
         <section className="py-12 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900">
           <h1 className="text-3xl sm:text-4xl font-extrabold text-center mb-12 text-white tracking-tight drop-shadow-lg">
             Our Clients
           </h1>
           <div className="overflow-hidden relative w-full max-w-[1100px] mx-auto">
-            <div
-              className="flex"
-              style={{
-                animation: 'clients-marquee 20s linear infinite',
-                width: '200%',
-              }}
-            >
-              {[...sliderImages, ...sliderImages].map((img, idx, arr) => (
+            <div className="marquee-slider">
+              {[...sliderImages, ...sliderImages].map((img, idx) => (
                 <div
                   key={idx}
-                  className="flex-shrink-0 flex items-center justify-center"
-                  style={{
-                    width: '15%',
-                    marginRight: idx === arr.length - 1 ? '0' : '40px',
-                  }}
+                  className="slide-item flex items-center justify-center px-4"
                 >
-                  <div className="bg-white rounded-xl shadow-lg p-4 flex items-center justify-center h-44 w-full">
+                  <div className="bg-white rounded-xl shadow-lg p-4 flex items-center justify-center h-44 w-full max-w-[300px]">
                     <img
                       src={img.src}
                       alt={img.alt}
@@ -138,10 +129,31 @@ const Home = () => {
                 </div>
               ))}
             </div>
-            <style>{`
-              @keyframes clients-marquee {
-                0% { transform: translateX(0); }
-                100% { transform: translateX(-50%); }
+
+            <style jsx>{`
+              .marquee-slider {
+                display: flex;
+                width: fit-content;
+                animation: scroll 30s linear infinite;
+              }
+
+              .marquee-slider:hover {
+                animation-play-state: paused;
+              }
+
+              .slide-item {
+                flex-shrink: 0;
+                width: 300px;
+                margin-right: 40px;
+              }
+
+              @keyframes scroll {
+                0% {
+                  transform: translateX(0);
+                }
+                100% {
+                  transform: translateX(-50%);
+                }
               }
             `}</style>
           </div>

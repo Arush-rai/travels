@@ -16,24 +16,24 @@ const Footer = () => {
               <h3 className="text-xl font-bold mb-4">Popular Locations</h3>
               <ul className="space-y-2 text-gray-400">
                 <li>
-                  <a href="/car-rental-lucknow" className="hover:text-white">
+                  <h1 className="hover:text-white">
                     Lucknow
-                  </a>
+                  </h1>
                 </li>
                 <li>
-                  <a href="/car-rental-delhi" className="hover:text-white">
+                  <h1 className="hover:text-white">
                     Delhi
-                  </a>
+                  </h1>
                 </li>
                 <li>
-                  <a href="/car-rental-hyderabad" className="hover:text-white">
+                  <h1 className="hover:text-white">
                     Hyderabad
-                  </a>
+                  </h1>
                 </li>
                 <li>
-                  <a href="/car-rental-pune" className="hover:text-white">
+                  <h1 className="hover:text-white">
                     Pune
-                  </a>
+                  </h1>
                 </li>
               </ul>
             </div>
@@ -41,7 +41,7 @@ const Footer = () => {
           <div className="mt-12 pt-8 border-t border-gray-800">
             <div className="flex flex-col items-center justify-center space-y-4 md:flex-row md:justify-between md:space-y-0">
               <div className="text-gray-400 text-center">
-                © 2025 IB Tours & Travels, Lucknow, Uttar Pradesh. All rights reserved.
+                © 2025 IB Tours Travels, Lucknow, Uttar Pradesh. All rights reserved.
               </div>
               <div className="flex space-x-6">
                 <a href="https://facebook.com/yourpage" className="text-gray-400 hover:text-white" aria-label="Facebook">

@@ -14,7 +14,11 @@ const Navbar = () => {
         {/* Logo and Brand */}
         <div className="flex items-center space-x-8">
           <Link href="/" aria-label="IB Tours & Travels Home">
-            <img src="/logo.jpg" alt="IB Tours & Travels - Car Rental Lucknow" className="h-10" />
+            <img
+              src="/logo.png"
+              alt="IB Tours & Travels - Car Rental Lucknow"
+              className="h-10 drop-shadow-lg"
+            />
           </Link>
           <span className="text-white text-2xl font-bold">IB Tours & Travels</span>
         </div>
