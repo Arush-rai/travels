@@ -20,25 +20,27 @@ const Home = () => {
   return (
     <div className="bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950 min-h-screen">
       <Head>
-        <title> IB Tours Travels </title>
+        <title>Car Rental in Lucknow | IB Tours & Travels | Taxi & Cab Hire Uttar Pradesh</title>
         <meta
           name="description"
-          content="Best car rental in Lucknow! IB Tours & Travels offers taxi, cab, and luxury car hire on km or day basis. Book your ride for airport, outstation, business, or tours in Lucknow, Uttar Pradesh."
+          content="Book your car, taxi, or cab in Lucknow with IB Tours & Travels. Best car rental service in Lucknow and Uttar Pradesh for airport, outstation, business, and city rides. 24/7 support, luxury vehicles, transparent pricing, no hidden charges. Trusted by thousands. Visit ibtourtravels.com for instant booking."
         />
         <meta
           name="keywords"
-          content="car rental Lucknow, taxi Lucknow, cab hire Lucknow, car hire Lucknow, Lucknow car rental, tours and travels Lucknow, car on rent Lucknow, outstation taxi Lucknow, airport taxi Lucknow, IB Tours & Travels"
+          content="car rental Lucknow, taxi Lucknow, cab hire Lucknow, car hire Lucknow, Lucknow car rental, tours and travels Lucknow, car on rent Lucknow, outstation taxi Lucknow, airport taxi Lucknow, IB Tours & Travels, ibtourtravels.com, best car rental in Lucknow, luxury car hire Lucknow"
         />
         <meta name="author" content="IB Tours & Travels" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Car Rental in Lucknow | IB Tours & Travels" />
-        <meta property="og:description" content="Book car, taxi, or cab in Lucknow. Best rates for airport, outstation, and city rides. 24/7 support, no hidden charges." />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta property="og:locale" content="en_IN" />
+        <meta property="og:site_name" content="IB Tours & Travels" />
+        <meta property="og:title" content="Car Rental in Lucknow | IB Tours & Travels | Taxi & Cab Hire Uttar Pradesh" />
+        <meta property="og:description" content="Book your car, taxi, or cab in Lucknow with IB Tours & Travels. Best car rental service in Lucknow and Uttar Pradesh for airport, outstation, business, and city rides. 24/7 support, luxury vehicles, transparent pricing, no hidden charges. Trusted by thousands." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://ibtourtravels.com/" />
         <meta property="og:image" content="https://ibtourtravels.com/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Car Rental in Lucknow | IB Tours & Travels" />
-        <meta name="twitter:description" content="Book car, taxi, or cab in Lucknow. Best rates for airport, outstation, and city rides." />
+        <meta name="twitter:title" content="Car Rental in Lucknow | IB Tours & Travels | Taxi & Cab Hire Uttar Pradesh" />
+        <meta name="twitter:description" content="Book your car, taxi, or cab in Lucknow with IB Tours & Travels. Best car rental service in Lucknow and Uttar Pradesh for airport, outstation, business, and city rides." />
         <meta name="twitter:image" content="https://ibtourtravels.com/og-image.jpg" />
         <link rel="canonical" href="https://ibtourtravels.com/" />
       </Head>

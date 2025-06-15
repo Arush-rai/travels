@@ -21,25 +21,27 @@ const CarDetails = () => {
   return (
     <>
       <Head>
-        <title>{vehicle.name} for Rent in Lucknow | IB Tours & Travels</title>
+        <title>{vehicle.name} for Rent in Lucknow | IB Tours & Travels | Car Rental Lucknow</title>
         <meta
           name="description"
-          content={`Rent ${vehicle.name} in Lucknow, Uttar Pradesh. ${vehicle.description} Book now with IB Tours & Travels for best rates on distance, km, or day basis.`}
+          content={`Rent ${vehicle.name} in Lucknow, Uttar Pradesh. ${vehicle.description} Book now with IB Tours & Travels for best rates on distance, km, or day basis. Trusted car rental in Lucknow.`}
         />
         <meta
           name="keywords"
-          content={`car rental Lucknow, ${vehicle.name} hire Lucknow, taxi Lucknow, car hire Lucknow, Lucknow car rental, tours and travels Lucknow, car on rent Lucknow, IB Tours & Travels`}
+          content={`car rental Lucknow, ${vehicle.name} hire Lucknow, taxi Lucknow, car hire Lucknow, Lucknow car rental, best car rental Lucknow, luxury car hire Lucknow, outstation taxi Lucknow, airport taxi Lucknow, IB Tours & Travels, ibtourtravels.com`}
         />
         <meta name="author" content="IB Tours & Travels" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:title" content={`${vehicle.name} for Rent in Lucknow | IB Tours & Travels`} />
-        <meta property="og:description" content={`Rent ${vehicle.name} in Lucknow, Uttar Pradesh. ${vehicle.description} Book now with IB Tours & Travels for best rates on distance, km, or day basis.`} />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta property="og:locale" content="en_IN" />
+        <meta property="og:site_name" content="IB Tours & Travels" />
+        <meta property="og:title" content={`${vehicle.name} for Rent in Lucknow | IB Tours & Travels | Car Rental Lucknow`} />
+        <meta property="og:description" content={`Rent ${vehicle.name} in Lucknow, Uttar Pradesh. ${vehicle.description} Book now with IB Tours & Travels for best rates on distance, km, or day basis. Trusted car rental in Lucknow.`} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={`https://ibtourtravels.com/cardetails/${vehicle.id}`} />
         <meta property="og:image" content={`https://ibtourtravels.com/${vehicle.image}`} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`${vehicle.name} for Rent in Lucknow | IB Tours & Travels`} />
-        <meta name="twitter:description" content={`Rent ${vehicle.name} in Lucknow, Uttar Pradesh. ${vehicle.description}`} />
+        <meta name="twitter:title" content={`${vehicle.name} for Rent in Lucknow | IB Tours & Travels | Car Rental Lucknow`} />
+        <meta name="twitter:description" content={`Rent ${vehicle.name} in Lucknow, Uttar Pradesh. ${vehicle.description} Book now with IB Tours & Travels for best rates on distance, km, or day basis.`} />
         <meta name="twitter:image" content={`https://ibtourtravels.com/${vehicle.image}`} />
         <link rel="canonical" href={`https://ibtourtravels.com/cardetails/${vehicle.id}`} />
       </Head>
