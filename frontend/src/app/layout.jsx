@@ -33,7 +33,7 @@ export const metadata = {
   openGraph: {
     title: "Car Rental in Lucknow | IB Tours & Travels",
     description: "Book car, taxi, or cab in Lucknow. Best rates for airport, outstation, and city rides. 24/7 support, no hidden charges.",
-    url: "https://yourdomain.com/",
+    url: "https://ibtourtravels.com/",
     images: [
       {
         url: "https://yourdomain.com/og-image.jpg",
@@ -48,10 +48,10 @@ export const metadata = {
     card: "summary_large_image",
     title: "Car Rental in Lucknow | IB Tours & Travels",
     description: "Book car, taxi, or cab in Lucknow. Best rates for airport, outstation, and city rides.",
-    images: ["https://yourdomain.com/og-image.jpg"],
+    images: ["https://ibtourtravels.com/og-image.jpg"],
   },
   alternates: {
-    canonical: "https://yourdomain.com/",
+    canonical: "https://ibtourtravels.com/",
   },
 };
 
