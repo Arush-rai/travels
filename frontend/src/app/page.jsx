@@ -375,7 +375,7 @@ const Home = () => {
                 </h3>
                 <p className="text-gray-600">
                   Our dedicated team is always available to assist you with any
-                  queries or concerns regarding your **car rental in Lucknow**.
+                  queries or concerns regarding your car rental in Lucknow.
                 </p>
               </div>
               <div className="text-center md:text-left">
@@ -387,7 +387,7 @@ const Home = () => {
                 </h3>
                 <p className="text-gray-600">
                   What you see is what you pay. Enjoy transparent pricing for
-                  all **taxi and cab hire services in Lucknow**, with no
+                  all taxi and cab hire services in Lucknow, with no
                   surprise fees.
                 </p>
               </div>
