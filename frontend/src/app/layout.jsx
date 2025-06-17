@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Car Rental in Lucknow | IB Tours & Travels | Taxi & Cab Hire Uttar Pradesh",
+  title: " IB Tours & Travels | Car Rental in Lucknow | Taxi & Cab Hire Uttar Pradesh",
   description: "Best car rental in Lucknow! IB Tours & Travels offers taxi, cab, and luxury car hire on km or day basis. Book your ride for airport, outstation, business, or tours in Lucknow, Uttar Pradesh.",
   keywords: [
     "car rental Lucknow",
