@@ -27,7 +27,7 @@ const Home = () => {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "IB Tours & Travels",
+    name: "IB Tour & Travels",
     image: "https://ibtourtravels.com/og-image.jpg",
     "@id": "https://ibtourtravels.com/",
     url: "https://ibtourtravels.com/",
@@ -256,9 +256,9 @@ const Home = () => {
                 Experience Luxury on Your Terms
               </h2>
               <p className="text-lg sm:text-xl mb-8 text-gray-200">
-                At **IB Tours & Travels**, we offer premium{" "}
-                **car rentals in Lucknow** for every journey, whether you need a{" "}
-                **taxi for daily commutes**, a **cab for outstation trips**, or
+                At IB Tours & Travels, we offer premium{" "}
+                car rentals in Lucknow for every journey, whether you need a{" "}
+                taxi for daily commutes, a cab for outstation trips, or
                 a luxurious ride for special occasions. Rent by distance, km, or
                 day in Lucknow & Uttar Pradesh.
               </p>
